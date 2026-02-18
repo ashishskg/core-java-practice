@@ -95,6 +95,30 @@ public class App00CompletableFutureMethods {
 }
 
 /*
+*  Output:
+*
+        runAsync -> Task executed
+        Hello from supplyAsync
+        thenApply -> Length = 22
+        thenAccept -> Length printed: 22
+        thenRun -> Task finished
+        thenCombine -> Best price = 80
+        thenCompose -> Hello Ashish
+        allOf -> All tasks completed
+        anyOf -> First completed = 100
+        exceptionally -> Handled error: java.lang.RuntimeException: Oops!
+        handle -> Recovered: java.lang.RuntimeException: Boom!
+        complete -> Manually completed
+        completeExceptionally -> java.lang.RuntimeException: Manual error
+        orTimeout -> Timeout occurred
+        completeOnTimeout -> Default Value
+*
+*
+* */
+
+
+
+/*
 | Method                                        | Returns                     | Description                                             | Example Usage                                                   |
 | --------------------------------------------- | --------------------------- | ------------------------------------------------------- | --------------------------------------------------------------- |
 | `runAsync(Runnable)`                          | `CompletableFuture<Void>`   | Runs a task asynchronously without returning a result.  | `CompletableFuture.runAsync(() -> System.out.println("Task"));` |

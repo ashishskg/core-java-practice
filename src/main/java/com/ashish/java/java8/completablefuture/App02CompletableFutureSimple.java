@@ -20,3 +20,11 @@ public class App02CompletableFutureSimple {
     }
 }
 
+/*
+*  Output:
+*
+        Task is running in: ForkJoinPool.commonPool-worker-1
+        Main thread finished.
+*
+*
+* */

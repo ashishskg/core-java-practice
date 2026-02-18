@@ -35,3 +35,13 @@ public class App03CompletableFutureSupplyAsync {
     }
 }
 
+/*
+*  Output:
+
+        Fetching price from Amazon...
+        Fetching price from Flipkart...
+        Best Price = 90
+
+ */
+
+

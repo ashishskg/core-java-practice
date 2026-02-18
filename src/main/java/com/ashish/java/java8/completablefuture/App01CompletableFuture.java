@@ -56,3 +56,13 @@ public class App01CompletableFuture {
     }
 }
 
+/*
+*  Output:
+*
+        Final Order Summary:
+        Order: #12345
+        Payment: SUCCESS (₹1500)
+        Shipping: Delivered (Bangalore)
+*
+*
+* */
